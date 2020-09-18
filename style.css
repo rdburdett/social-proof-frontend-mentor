@@ -28,7 +28,7 @@ p {
 }
 
 .ratings {
-  width: 600px;
+  width: 500px;
 }
 
 li {
@@ -47,10 +47,6 @@ li {
   border-radius: 10px;
   margin: 25px;
   padding: 20px;
-}
-
-.reviews div {
-  /* padding: 10px; */
 }
 
 h2 {
@@ -72,6 +68,16 @@ img {
   border-radius: 40px;
   height: 40px;
   width: auto;
+}
+
+.star-rating {
+  display: inline;
+  padding-right: 30px;
+}
+
+.star {
+  height: 15px;
+  width: auto
 }
 
 .attribution {
